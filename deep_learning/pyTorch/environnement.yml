@@ -1,0 +1,12 @@
+name: ml-project
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - pandas
+  - numpy<2
+  - jupyter
